@@ -1,5 +1,12 @@
-function sayHi(msg){
-console.log(msg);
+class animals{
+    dogs:number
+    cats:number
+ 
+    count(){
+      console.log(`dog are ${this.dogs} and cats ${this.cats}`);
+    }
 }
-var msg ='hai kranthi'
-console.log(msg);
+let animal = new animals
+animal.cats=3
+animal.dogs=4
+animal.count()
